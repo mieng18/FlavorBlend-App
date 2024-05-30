@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA4E99F02C0933AD00E2875E /* FlavorBlend_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4E99EF2C0933AD00E2875E /* FlavorBlend_AppApp.swift */; };
+		CA4E99F22C0933AD00E2875E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4E99F12C0933AD00E2875E /* ContentView.swift */; };
+		CA4E99F42C0933B000E2875E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA4E99F32C0933B000E2875E /* Assets.xcassets */; };
+		CA4E99F72C0933B000E2875E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA4E99F62C0933B000E2875E /* Preview Assets.xcassets */; };
+		CA4E9A012C0933B000E2875E /* FlavorBlend_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4E9A002C0933B000E2875E /* FlavorBlend_AppTests.swift */; };
+		CA4E9A0B2C0933B000E2875E /* FlavorBlend_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4E9A0A2C0933B000E2875E /* FlavorBlend_AppUITests.swift */; };
+		CA4E9A0D2C0933B000E2875E /* FlavorBlend_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4E9A0C2C0933B000E2875E /* FlavorBlend_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA4E99FD2C0933B000E2875E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA4E99E42C0933AD00E2875E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA4E99EB2C0933AD00E2875E;
+			remoteInfo = "FlavorBlend-App";
+		};
+		CA4E9A072C0933B000E2875E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA4E99E42C0933AD00E2875E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA4E99EB2C0933AD00E2875E;
+			remoteInfo = "FlavorBlend-App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA4E99EC2C0933AD00E2875E /* FlavorBlend-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FlavorBlend-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA4E99EF2C0933AD00E2875E /* FlavorBlend_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlavorBlend_AppApp.swift; sourceTree = "<group>"; };
+		CA4E99F12C0933AD00E2875E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CA4E99F32C0933B000E2875E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA4E99F62C0933B000E2875E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CA4E99FC2C0933B000E2875E /* FlavorBlend-AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FlavorBlend-AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA4E9A002C0933B000E2875E /* FlavorBlend_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlavorBlend_AppTests.swift; sourceTree = "<group>"; };
+		CA4E9A062C0933B000E2875E /* FlavorBlend-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FlavorBlend-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA4E9A0A2C0933B000E2875E /* FlavorBlend_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlavorBlend_AppUITests.swift; sourceTree = "<group>"; };
+		CA4E9A0C2C0933B000E2875E /* FlavorBlend_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlavorBlend_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA4E99E92C0933AD00E2875E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA4E99F92C0933B000E2875E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA4E9A032C0933B000E2875E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA4E99E32C0933AD00E2875E = {
+			isa = PBXGroup;
+			children = (
+				CA4E99EE2C0933AD00E2875E /* FlavorBlend-App */,
+				CA4E99FF2C0933B000E2875E /* FlavorBlend-AppTests */,
+				CA4E9A092C0933B000E2875E /* FlavorBlend-AppUITests */,
+				CA4E99ED2C0933AD00E2875E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA4E99ED2C0933AD00E2875E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA4E99EC2C0933AD00E2875E /* FlavorBlend-App.app */,
+				CA4E99FC2C0933B000E2875E /* FlavorBlend-AppTests.xctest */,
+				CA4E9A062C0933B000E2875E /* FlavorBlend-AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA4E99EE2C0933AD00E2875E /* FlavorBlend-App */ = {
+			isa = PBXGroup;
+			children = (
+				CA4E9A192C09389300E2875E /* Model */,
+				CA4E9A1A2C09389900E2875E /* ViewModel */,
+				CA4E9A1B2C0938A400E2875E /* View */,
+				CA4E99EF2C0933AD00E2875E /* FlavorBlend_AppApp.swift */,
+				CA4E99F12C0933AD00E2875E /* ContentView.swift */,
+				CA4E99F32C0933B000E2875E /* Assets.xcassets */,
+				CA4E99F52C0933B000E2875E /* Preview Content */,
+			);
+			path = "FlavorBlend-App";
+			sourceTree = "<group>";
+		};
+		CA4E99F52C0933B000E2875E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CA4E99F62C0933B000E2875E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CA4E99FF2C0933B000E2875E /* FlavorBlend-AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA4E9A002C0933B000E2875E /* FlavorBlend_AppTests.swift */,
+			);
+			path = "FlavorBlend-AppTests";
+			sourceTree = "<group>";
+		};
+		CA4E9A092C0933B000E2875E /* FlavorBlend-AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA4E9A0A2C0933B000E2875E /* FlavorBlend_AppUITests.swift */,
+				CA4E9A0C2C0933B000E2875E /* FlavorBlend_AppUITestsLaunchTests.swift */,
+			);
+			path = "FlavorBlend-AppUITests";
+			sourceTree = "<group>";
+		};
+		CA4E9A192C09389300E2875E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CA4E9A1A2C09389900E2875E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CA4E9A1B2C0938A400E2875E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA4E99EB2C0933AD00E2875E /* FlavorBlend-App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA4E9A102C0933B000E2875E /* Build configuration list for PBXNativeTarget "FlavorBlend-App" */;
+			buildPhases = (
+				CA4E99E82C0933AD00E2875E /* Sources */,
+				CA4E99E92C0933AD00E2875E /* Frameworks */,
+				CA4E99EA2C0933AD00E2875E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FlavorBlend-App";
+			productName = "FlavorBlend-App";
+			productReference = CA4E99EC2C0933AD00E2875E /* FlavorBlend-App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA4E99FB2C0933B000E2875E /* FlavorBlend-AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA4E9A132C0933B000E2875E /* Build configuration list for PBXNativeTarget "FlavorBlend-AppTests" */;
+			buildPhases = (
+				CA4E99F82C0933B000E2875E /* Sources */,
+				CA4E99F92C0933B000E2875E /* Frameworks */,
+				CA4E99FA2C0933B000E2875E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA4E99FE2C0933B000E2875E /* PBXTargetDependency */,
+			);
+			name = "FlavorBlend-AppTests";
+			productName = "FlavorBlend-AppTests";
+			productReference = CA4E99FC2C0933B000E2875E /* FlavorBlend-AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA4E9A052C0933B000E2875E /* FlavorBlend-AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA4E9A162C0933B000E2875E /* Build configuration list for PBXNativeTarget "FlavorBlend-AppUITests" */;
+			buildPhases = (
+				CA4E9A022C0933B000E2875E /* Sources */,
+				CA4E9A032C0933B000E2875E /* Frameworks */,
+				CA4E9A042C0933B000E2875E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA4E9A082C0933B000E2875E /* PBXTargetDependency */,
+			);
+			name = "FlavorBlend-AppUITests";
+			productName = "FlavorBlend-AppUITests";
+			productReference = CA4E9A062C0933B000E2875E /* FlavorBlend-AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA4E99E42C0933AD00E2875E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					CA4E99EB2C0933AD00E2875E = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					CA4E99FB2C0933B000E2875E = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = CA4E99EB2C0933AD00E2875E;
+					};
+					CA4E9A052C0933B000E2875E = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = CA4E99EB2C0933AD00E2875E;
+					};
+				};
+			};
+			buildConfigurationList = CA4E99E72C0933AD00E2875E /* Build configuration list for PBXProject "FlavorBlend-App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA4E99E32C0933AD00E2875E;
+			productRefGroup = CA4E99ED2C0933AD00E2875E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA4E99EB2C0933AD00E2875E /* FlavorBlend-App */,
+				CA4E99FB2C0933B000E2875E /* FlavorBlend-AppTests */,
+				CA4E9A052C0933B000E2875E /* FlavorBlend-AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA4E99EA2C0933AD00E2875E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA4E99F72C0933B000E2875E /* Preview Assets.xcassets in Resources */,
+				CA4E99F42C0933B000E2875E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA4E99FA2C0933B000E2875E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA4E9A042C0933B000E2875E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA4E99E82C0933AD00E2875E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA4E99F22C0933AD00E2875E /* ContentView.swift in Sources */,
+				CA4E99F02C0933AD00E2875E /* FlavorBlend_AppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA4E99F82C0933B000E2875E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA4E9A012C0933B000E2875E /* FlavorBlend_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA4E9A022C0933B000E2875E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA4E9A0D2C0933B000E2875E /* FlavorBlend_AppUITestsLaunchTests.swift in Sources */,
+				CA4E9A0B2C0933B000E2875E /* FlavorBlend_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA4E99FE2C0933B000E2875E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA4E99EB2C0933AD00E2875E /* FlavorBlend-App */;
+			targetProxy = CA4E99FD2C0933B000E2875E /* PBXContainerItemProxy */;
+		};
+		CA4E9A082C0933B000E2875E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA4E99EB2C0933AD00E2875E /* FlavorBlend-App */;
+			targetProxy = CA4E9A072C0933B000E2875E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CA4E9A0E2C0933B000E2875E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA4E9A0F2C0933B000E2875E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA4E9A112C0933B000E2875E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FlavorBlend-App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mainguyen.FlavorBlend-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA4E9A122C0933B000E2875E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FlavorBlend-App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mainguyen.FlavorBlend-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CA4E9A142C0933B000E2875E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mainguyen.FlavorBlend-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlavorBlend-App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FlavorBlend-App";
+			};
+			name = Debug;
+		};
+		CA4E9A152C0933B000E2875E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mainguyen.FlavorBlend-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlavorBlend-App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FlavorBlend-App";
+			};
+			name = Release;
+		};
+		CA4E9A172C0933B000E2875E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mainguyen.FlavorBlend-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FlavorBlend-App";
+			};
+			name = Debug;
+		};
+		CA4E9A182C0933B000E2875E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mainguyen.FlavorBlend-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FlavorBlend-App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA4E99E72C0933AD00E2875E /* Build configuration list for PBXProject "FlavorBlend-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA4E9A0E2C0933B000E2875E /* Debug */,
+				CA4E9A0F2C0933B000E2875E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA4E9A102C0933B000E2875E /* Build configuration list for PBXNativeTarget "FlavorBlend-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA4E9A112C0933B000E2875E /* Debug */,
+				CA4E9A122C0933B000E2875E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA4E9A132C0933B000E2875E /* Build configuration list for PBXNativeTarget "FlavorBlend-AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA4E9A142C0933B000E2875E /* Debug */,
+				CA4E9A152C0933B000E2875E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA4E9A162C0933B000E2875E /* Build configuration list for PBXNativeTarget "FlavorBlend-AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA4E9A172C0933B000E2875E /* Debug */,
+				CA4E9A182C0933B000E2875E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA4E99E42C0933AD00E2875E /* Project object */;
+}
