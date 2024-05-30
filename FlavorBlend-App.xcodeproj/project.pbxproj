@@ -14,6 +14,7 @@
 		CA4E9A012C0933B000E2875E /* FlavorBlend_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4E9A002C0933B000E2875E /* FlavorBlend_AppTests.swift */; };
 		CA4E9A0B2C0933B000E2875E /* FlavorBlend_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4E9A0A2C0933B000E2875E /* FlavorBlend_AppUITests.swift */; };
 		CA4E9A0D2C0933B000E2875E /* FlavorBlend_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4E9A0C2C0933B000E2875E /* FlavorBlend_AppUITestsLaunchTests.swift */; };
+		CA4E9A1D2C093A8E00E2875E /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4E9A1C2C093A8E00E2875E /* Recipe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		CA4E9A062C0933B000E2875E /* FlavorBlend-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FlavorBlend-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA4E9A0A2C0933B000E2875E /* FlavorBlend_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlavorBlend_AppUITests.swift; sourceTree = "<group>"; };
 		CA4E9A0C2C0933B000E2875E /* FlavorBlend_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlavorBlend_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CA4E9A1C2C093A8E00E2875E /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 		CA4E9A192C09389300E2875E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				CA4E9A1C2C093A8E00E2875E /* Recipe.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA4E9A1D2C093A8E00E2875E /* Recipe.swift in Sources */,
 				CA4E99F22C0933AD00E2875E /* ContentView.swift in Sources */,
 				CA4E99F02C0933AD00E2875E /* FlavorBlend_AppApp.swift in Sources */,
 			);
