@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA327E622C0D30420013C209 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CA327E5B2C0D30420013C209 /* Poppins-Bold.ttf */; };
+		CA327E632C0D30420013C209 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CA327E5C2C0D30420013C209 /* Poppins-Light.ttf */; };
+		CA327E642C0D30420013C209 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CA327E5D2C0D30420013C209 /* Poppins-Medium.ttf */; };
+		CA327E652C0D30420013C209 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CA327E5E2C0D30420013C209 /* Poppins-Regular.ttf */; };
+		CA327E662C0D30420013C209 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CA327E5F2C0D30420013C209 /* Poppins-SemiBold.ttf */; };
+		CA327E672C0D30420013C209 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CA327E602C0D30420013C209 /* Poppins-Thin.ttf */; };
 		CA4E99F02C0933AD00E2875E /* FlavorBlend_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4E99EF2C0933AD00E2875E /* FlavorBlend_AppApp.swift */; };
 		CA4E99F22C0933AD00E2875E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4E99F12C0933AD00E2875E /* ContentView.swift */; };
 		CA4E99F42C0933B000E2875E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA4E99F32C0933B000E2875E /* Assets.xcassets */; };
@@ -15,6 +21,17 @@
 		CA4E9A0B2C0933B000E2875E /* FlavorBlend_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4E9A0A2C0933B000E2875E /* FlavorBlend_AppUITests.swift */; };
 		CA4E9A0D2C0933B000E2875E /* FlavorBlend_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4E9A0C2C0933B000E2875E /* FlavorBlend_AppUITestsLaunchTests.swift */; };
 		CA4E9A1D2C093A8E00E2875E /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4E9A1C2C093A8E00E2875E /* Recipe.swift */; };
+		CA4E9A232C0A5EC400E2875E /* RecipeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4E9A222C0A5EC400E2875E /* RecipeVM.swift */; };
+		CA4E9A252C0A680D00E2875E /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4E9A242C0A680D00E2875E /* MainTabView.swift */; };
+		CA4E9A272C0A6A8C00E2875E /* HomeTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4E9A262C0A6A8C00E2875E /* HomeTab.swift */; };
+		CA4E9A292C0A6A9F00E2875E /* HighLightTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4E9A282C0A6A9F00E2875E /* HighLightTab.swift */; };
+		CA4E9A2C2C0A6AFE00E2875E /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4E9A2B2C0A6AFE00E2875E /* Color+Extensions.swift */; };
+		CA4E9A2E2C0A6EA500E2875E /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4E9A2D2C0A6EA500E2875E /* DetailView.swift */; };
+		CA4E9A302C0A6EF900E2875E /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4E9A2F2C0A6EF900E2875E /* CustomView.swift */; };
+		CA4E9A322C0A6F3300E2875E /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4E9A312C0A6F3300E2875E /* View+Extensions.swift */; };
+		CA4E9A352C0A7D0C00E2875E /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4E9A342C0A7D0C00E2875E /* DataService.swift */; };
+		CA4E9A372C0A81C100E2875E /* Font+Exensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4E9A362C0A81C100E2875E /* Font+Exensions.swift */; };
+		CA4E9A3C2C0ABD1A00E2875E /* recipes.json in Resources */ = {isa = PBXBuildFile; fileRef = CA4E9A3B2C0ABD1A00E2875E /* recipes.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +52,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA327E5B2C0D30420013C209 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		CA327E5C2C0D30420013C209 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		CA327E5D2C0D30420013C209 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		CA327E5E2C0D30420013C209 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		CA327E5F2C0D30420013C209 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		CA327E602C0D30420013C209 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		CA327E682C0D30F50013C209 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		CA4E99EC2C0933AD00E2875E /* FlavorBlend-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FlavorBlend-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA4E99EF2C0933AD00E2875E /* FlavorBlend_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlavorBlend_AppApp.swift; sourceTree = "<group>"; };
 		CA4E99F12C0933AD00E2875E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,6 +70,17 @@
 		CA4E9A0A2C0933B000E2875E /* FlavorBlend_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlavorBlend_AppUITests.swift; sourceTree = "<group>"; };
 		CA4E9A0C2C0933B000E2875E /* FlavorBlend_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlavorBlend_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CA4E9A1C2C093A8E00E2875E /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		CA4E9A222C0A5EC400E2875E /* RecipeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeVM.swift; sourceTree = "<group>"; };
+		CA4E9A242C0A680D00E2875E /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		CA4E9A262C0A6A8C00E2875E /* HomeTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTab.swift; sourceTree = "<group>"; };
+		CA4E9A282C0A6A9F00E2875E /* HighLightTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighLightTab.swift; sourceTree = "<group>"; };
+		CA4E9A2B2C0A6AFE00E2875E /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		CA4E9A2D2C0A6EA500E2875E /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		CA4E9A2F2C0A6EF900E2875E /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		CA4E9A312C0A6F3300E2875E /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		CA4E9A342C0A7D0C00E2875E /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		CA4E9A362C0A81C100E2875E /* Font+Exensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Exensions.swift"; sourceTree = "<group>"; };
+		CA4E9A3B2C0ABD1A00E2875E /* recipes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = recipes.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +108,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CA327E612C0D30420013C209 /* Poppins-Font */ = {
+			isa = PBXGroup;
+			children = (
+				CA327E5B2C0D30420013C209 /* Poppins-Bold.ttf */,
+				CA327E5C2C0D30420013C209 /* Poppins-Light.ttf */,
+				CA327E5D2C0D30420013C209 /* Poppins-Medium.ttf */,
+				CA327E5E2C0D30420013C209 /* Poppins-Regular.ttf */,
+				CA327E5F2C0D30420013C209 /* Poppins-SemiBold.ttf */,
+				CA327E602C0D30420013C209 /* Poppins-Thin.ttf */,
+			);
+			path = "Poppins-Font";
+			sourceTree = "<group>";
+		};
 		CA4E99E32C0933AD00E2875E = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +144,11 @@
 		CA4E99EE2C0933AD00E2875E /* FlavorBlend-App */ = {
 			isa = PBXGroup;
 			children = (
+				CA327E682C0D30F50013C209 /* Info.plist */,
+				CA327E612C0D30420013C209 /* Poppins-Font */,
+				CA4E9A3A2C0ABD0A00E2875E /* Data */,
+				CA4E9A332C0A7CF300E2875E /* Services */,
+				CA4E9A2A2C0A6AE700E2875E /* Extensions */,
 				CA4E9A192C09389300E2875E /* Model */,
 				CA4E9A1A2C09389900E2875E /* ViewModel */,
 				CA4E9A1B2C0938A400E2875E /* View */,
@@ -143,6 +196,7 @@
 		CA4E9A1A2C09389900E2875E /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				CA4E9A222C0A5EC400E2875E /* RecipeVM.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -150,8 +204,39 @@
 		CA4E9A1B2C0938A400E2875E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CA4E9A242C0A680D00E2875E /* MainTabView.swift */,
+				CA4E9A262C0A6A8C00E2875E /* HomeTab.swift */,
+				CA4E9A282C0A6A9F00E2875E /* HighLightTab.swift */,
+				CA4E9A2D2C0A6EA500E2875E /* DetailView.swift */,
+				CA4E9A2F2C0A6EF900E2875E /* CustomView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		CA4E9A2A2C0A6AE700E2875E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CA4E9A2B2C0A6AFE00E2875E /* Color+Extensions.swift */,
+				CA4E9A312C0A6F3300E2875E /* View+Extensions.swift */,
+				CA4E9A362C0A81C100E2875E /* Font+Exensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CA4E9A332C0A7CF300E2875E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CA4E9A342C0A7D0C00E2875E /* DataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		CA4E9A3A2C0ABD0A00E2875E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				CA4E9A3B2C0ABD1A00E2875E /* recipes.json */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +344,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA4E99F72C0933B000E2875E /* Preview Assets.xcassets in Resources */,
+				CA327E632C0D30420013C209 /* Poppins-Light.ttf in Resources */,
+				CA327E652C0D30420013C209 /* Poppins-Regular.ttf in Resources */,
+				CA327E672C0D30420013C209 /* Poppins-Thin.ttf in Resources */,
+				CA4E9A3C2C0ABD1A00E2875E /* recipes.json in Resources */,
+				CA327E642C0D30420013C209 /* Poppins-Medium.ttf in Resources */,
+				CA327E662C0D30420013C209 /* Poppins-SemiBold.ttf in Resources */,
 				CA4E99F42C0933B000E2875E /* Assets.xcassets in Resources */,
+				CA327E622C0D30420013C209 /* Poppins-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,8 +376,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA4E9A272C0A6A8C00E2875E /* HomeTab.swift in Sources */,
+				CA4E9A2E2C0A6EA500E2875E /* DetailView.swift in Sources */,
+				CA4E9A322C0A6F3300E2875E /* View+Extensions.swift in Sources */,
+				CA4E9A352C0A7D0C00E2875E /* DataService.swift in Sources */,
+				CA4E9A232C0A5EC400E2875E /* RecipeVM.swift in Sources */,
+				CA4E9A252C0A680D00E2875E /* MainTabView.swift in Sources */,
+				CA4E9A2C2C0A6AFE00E2875E /* Color+Extensions.swift in Sources */,
+				CA4E9A302C0A6EF900E2875E /* CustomView.swift in Sources */,
 				CA4E9A1D2C093A8E00E2875E /* Recipe.swift in Sources */,
 				CA4E99F22C0933AD00E2875E /* ContentView.swift in Sources */,
+				CA4E9A372C0A81C100E2875E /* Font+Exensions.swift in Sources */,
+				CA4E9A292C0A6A9F00E2875E /* HighLightTab.swift in Sources */,
 				CA4E99F02C0933AD00E2875E /* FlavorBlend_AppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -452,6 +554,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"FlavorBlend-App/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FlavorBlend-App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -480,6 +583,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"FlavorBlend-App/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FlavorBlend-App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

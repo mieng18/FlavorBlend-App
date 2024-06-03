@@ -7,31 +7,31 @@
 
 import Foundation
 
-class Recipe: Identifiable, Decodable {
-   
-   var id:UUID?
-   var name:String
-   var featured:Bool
-   var image:String
-   var instructions:String
-   var prepTime:String
-   var cookTime:String
-   var totalTime:String
-   var servings:Int
-   var highlights:[String]
-   var ingredients:[Ingredient]
-   var directions:[String]
-   
+
+struct Recipe: Identifiable, Decodable,Hashable {
+    var id:UUID?
+    var name:String
+    var featured:Bool
+    var image:String
+    var description:String
+    var rating: String
+    var prepTime:String
+    var cookTime:String
+    var totalTime:String
+    var servings:Int
+    var highlights:[String]
+    var ingredients:[Ingredient]
+    var directions:[String]
+    
 }
 
 
-class Ingredient: Identifiable, Decodable {
-   
-   var id:UUID?
-   var name:String
-   var num:Int?
-   var denom:Int?
-   var unit:String?
-   
-}
 
+struct Ingredient: Identifiable, Decodable, Hashable{
+    var id: UUID?
+    var name: String
+    var num: Int?
+    var denom: Int?
+    var unit: String?
+
+}
