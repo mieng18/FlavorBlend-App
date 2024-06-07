@@ -28,6 +28,7 @@ struct MainTabView: View {
                     HomeTab()
                         .tag(Tab.first)
                         .setTabBarBackground(color: .whiteFFFEFE)
+                    
 
 
                     HighLightTab()

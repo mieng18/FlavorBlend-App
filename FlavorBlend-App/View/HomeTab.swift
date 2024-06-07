@@ -18,7 +18,6 @@ enum SelectedOption: String, CaseIterable {
     
     var title: String{
         switch self {
-            
         case .savoury:
             return "Savoury"
         case .dessert:
@@ -36,32 +35,38 @@ enum SelectedOption: String, CaseIterable {
 }
 
 
+private let adaptiveColumn = [GridItem(.flexible(),spacing: 16), GridItem(.flexible(),spacing: 16)]
+
+
 struct HomeTab: View {
     @State var searchInput: String = ""
     @State var selectedOption: SelectedOption = SelectedOption.savoury
     @State var showDetailView: Bool = false
     @State var currentRecipe: Recipe?
-    @StateObject var recipeVM = RecipeVM()
+    @StateObject private var recipeVM = RecipeVM()
+
 
     @Namespace var animation
     var body: some View {
         
-        VStack(spacing: 0){
+        VStack(spacing: 12){
             HStack() {
                 
-                
-                Text("Flavor Blend")
-                    .font(.poppinsBoldFont(size: 28))
-                    .foregroundColor(.black101010)
-                Spacer()
+                Image("icons8-forage_mixed")
+                    .resizable()
+                    .renderingMode(.template)
 
-               
+                    .frame(width: 30, height: 30)
+                    .aspectRatio(contentMode: .fit)
+                Text("Flavorblend")
+                    .font(.poppinsRegularFont(size: 25))
+
+
             }
+            .frame(maxWidth: .infinity,alignment: .leading)
             .padding(.horizontal,28)
-            
-          
-            
-            
+            .foregroundColor(.black)
+        
             ScrollView(.vertical,showsIndicators: false) {
                 VStack(spacing:12){
                     customSearchBar()
@@ -69,22 +74,15 @@ struct HomeTab: View {
                         .padding(.bottom,12)
             
                     tagView()
-    
-                    
-                    popular()
-                        .padding(.horizontal,28)
 
-                    
+    
+                    popular()
                 }
-                
             }
-            .padding(.top,15)
         }
         .frame(width: UIScreen.main.bounds.width)
-        
-
     }
-    
+
     
     @ViewBuilder func customSearchBar() -> some View{
         HStack {
@@ -100,201 +98,66 @@ struct HomeTab: View {
         .cornerRadius(30)
         
     }
-    private let adaptiveColumn = [
-          GridItem(.adaptive(minimum: 150))
-      ]
-    
-    
     
     @ViewBuilder func tagView() -> some View {
         ScrollView(.horizontal, showsIndicators: false) {
             HStack(spacing: 12) {
                 ForEach(SelectedOption.allCases, id: \.self) { option in
-                    CustomButton(animation: animation, selectedOption: $selectedOption, option: option)
+                    CustomButton(selectedOption:  $selectedOption, option: option, animation: animation)
                 }
             }
             .padding(.leading,24)
         }
-        
     }
     
     @ViewBuilder func popular() -> some View {
-        VStack(alignment: .leading,spacing: 4){
+        VStack(alignment: .leading,spacing: 12){
 
             HStack(spacing:6) {
-                Text("Trending Recipe")
-                    .font(.poppinsRegularFont(size: 24))
+                Text("Trending Recipes")
+                    .font(.poppinsMediumFont(size: 18))
                     .foregroundColor(.black101010)
                 
                 Image(systemName: "flame").foregroundColor(.gray)
                     .scaledToFit()
-                    .frame(width: 26,height: 26)
-               
+
+            }
+            .padding(.horizontal,28)
+            
+            VStack{
+        
+                ScrollView{
+                    LazyVGrid(columns: adaptiveColumn, spacing: 16) {
+                        ForEach(recipeVM.recipes, id: \.self) { recipe in
+                            RecipeView(recipe: recipe)
+                            
+                        }
+                    }
+                }
+                .padding(.horizontal,24)
+                .padding(.bottom,40)
 
             }
             
-            ZStack{
-                
-                ScrollView{
-                            LazyVGrid(columns: adaptiveColumn, spacing: 20) {
-                                ForEach(recipeVM.recipes, id: \.self) { recipe in
-                                    Text(String(recipe.name))
-                                        .frame(width: 150, height: 150, alignment: .center)
-                                        .background(.blue)
-                                        .cornerRadius(10)
-                                        .foregroundColor(.white)
-                                        .font(.title)
-                                }
-                            }
-                            
-                        } .padding()
-//                HStack {
-//                    ZStack(alignment: .bottom){
-//                        RoundedRectangle(cornerRadius: 20)
-//                             .fill(
-//                                 LinearGradient(gradient: Gradient(colors: [.yellow, .orange]),
-//                                                startPoint: .center,
-//                                                endPoint: .bottomTrailing))
-//                             .frame(width: 161, height: 214)
-//                             
-//                        VStack {
-//                
-//
-////                            VStack{
-////                                if currentRecipe?.id == recipeVM.recipes[0].id && showDetailView{
-////                                    Rectangle()
-////                                        .fill(.clear)
-////                                }else{
-////                                    Image("burger_sandwich1")
-////                                        .scaledToFill()
-////                                        .frame(width: 130,height: 98.77)
-////                                        .matchedGeometryEffect(id: recipeVM.recipes[0].id, in: animation)
-////                                        .zIndex(1)
-////                                }
-////                            }
-////                            .zIndex(1)
-//
-//
-//                            
-//                            VStack{
-//                                Text("Beef Burger")
-//                                    .font(.poppinsRegularFont(size: 18))
-//                                    .foregroundColor(.black101010)
-//                                
-//                                HStack{
-//                                    Text("$20")
-//                                        .font(.poppinsSemiBoldFont(size: 18))
-//                                        .foregroundColor(.black)
-//                                    
-//                                    Spacer()
-//                                    Button(action: {
-//                                        
-//                                    }, label: {
-//                                        
-//                                        Image("add-circle-icon")
-//                                            .frame(width: 28,height:28)
-//                                        
-//                                    })
-//                                }
-//                            }
-//                            .padding(.horizontal,35)
-//                            .zIndex(0)
-//
-//                            
-//                            
-//                        }
-//                        .padding(.bottom,12)
-//                       
-//
-//                         
-//                    }
-//                    .onTapGesture {
-////                        currentRecipe = viewModel.recipes[0]
-//                        showDetailView = true
-//                        hideTabBar()
-//                    }
-//
-//                    
-//                    Spacer()
-//                    
-//                    ZStack(alignment: .bottom){
-//                        RoundedRectangle(cornerRadius: 20)
-//                             .fill(
-//                                 LinearGradient(gradient: Gradient(colors: [.yellow, .orange]),
-//                                                startPoint: .center,
-//                                                endPoint: .bottomTrailing))
-//                             .frame(width: 161, height: 214)
-//                        
-//                       
-//                        VStack{
-//                            Image("pizza-fries")
-//                                .resizable()
-//                               .scaledToFill()
-//                               .frame(width: 130,height: 130)
-//                               .clipped()
-//                            
-//                            
-//
-//                            VStack{
-//                                Text("Pizza Fries")
-//                                    .font(.poppinsRegularFont(size: 18))
-//                                    .foregroundColor(.black101010)
-//                                
-//                                HStack{
-//                                    Text("$32")
-//                                        .font(.poppinsSemiBoldFont(size: 18))
-//                                        .foregroundColor(.yellow)
-//                                    
-//                                    Spacer()
-//                                    
-//                                    Button(action: {
-//                                        
-//                                    }, label: {
-//                                        
-//                                        Image("add-circle-icon")
-//                                            .frame(width: 28,height:28)
-//                                        
-//                                    })
-//                                }
-//                            }
-//                            .padding(.horizontal,42)
-//                            .padding(.bottom,12)
-//                        }
-//                        
-//                    }
-//                    .zIndex(1)
-//                    .onTapGesture {
-////                        currentRecipe = recipes[1]
-//                        showDetailView = true
-//                    }
-//
-//                    
-//                }
-                
+            .onAppear {
+                Task {
+                     try await recipeVM.fetchData(query: "chicken")
+                }
             }
         }
     }
 }
 
-//struct HomeTab_Previews: PreviewProvider {
-//    static var previews: some View {
-//        HomeTab()
-//    }
-//}
 
 
 struct CustomButton: View {
-    
-//    var image: String
-    // Since we're having asset Image...
-//    var isSystemImage: Bool
-    var animation: Namespace.ID
+
     @Binding var selectedOption: SelectedOption
-    
     var option: SelectedOption
+    var animation: Namespace.ID
 
     var body: some View{
-
+        
         HStack(spacing:24){
            
             VStack{
@@ -316,13 +179,11 @@ struct CustomButton: View {
             .onTapGesture {
                 selectedOption = option
             }
-
-
         }
-        
     }
 }
-//
-//#Preview {
-//    HomeTab()
-//}
+
+#Preview {
+    HomeTab()
+}
+
